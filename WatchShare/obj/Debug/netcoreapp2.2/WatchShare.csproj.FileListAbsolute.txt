@@ -1,0 +1,17 @@
+E:\My\WatchShare\web service\WatchShare\WatchShare\bin\Debug\netcoreapp2.2\WatchShare.deps.json
+E:\My\WatchShare\web service\WatchShare\WatchShare\bin\Debug\netcoreapp2.2\WatchShare.runtimeconfig.json
+E:\My\WatchShare\web service\WatchShare\WatchShare\bin\Debug\netcoreapp2.2\WatchShare.runtimeconfig.dev.json
+E:\My\WatchShare\web service\WatchShare\WatchShare\bin\Debug\netcoreapp2.2\WatchShare.dll
+E:\My\WatchShare\web service\WatchShare\WatchShare\bin\Debug\netcoreapp2.2\WatchShare.pdb
+E:\My\WatchShare\web service\WatchShare\WatchShare\obj\Debug\netcoreapp2.2\WatchShare.csprojAssemblyReference.cache
+E:\My\WatchShare\web service\WatchShare\WatchShare\obj\Debug\netcoreapp2.2\WatchShare.RazorAssemblyInfo.cache
+E:\My\WatchShare\web service\WatchShare\WatchShare\obj\Debug\netcoreapp2.2\WatchShare.RazorAssemblyInfo.cs
+E:\My\WatchShare\web service\WatchShare\WatchShare\obj\Debug\netcoreapp2.2\WatchShare.AssemblyInfoInputs.cache
+E:\My\WatchShare\web service\WatchShare\WatchShare\obj\Debug\netcoreapp2.2\WatchShare.AssemblyInfo.cs
+E:\My\WatchShare\web service\WatchShare\WatchShare\obj\Debug\netcoreapp2.2\WatchShare.RazorTargetAssemblyInfo.cache
+E:\My\WatchShare\web service\WatchShare\WatchShare\obj\Debug\netcoreapp2.2\WatchShare.dll
+E:\My\WatchShare\web service\WatchShare\WatchShare\obj\Debug\netcoreapp2.2\WatchShare.pdb
+E:\My\WatchShare\web service\WatchShare\WatchShare\bin\Debug\netcoreapp2.2\Models.exe
+E:\My\WatchShare\web service\WatchShare\WatchShare\bin\Debug\netcoreapp2.2\Models.pdb
+E:\My\WatchShare\web service\WatchShare\WatchShare\bin\Debug\netcoreapp2.2\Models.exe.config
+E:\My\WatchShare\web service\WatchShare\WatchShare\obj\Debug\netcoreapp2.2\WatchShare.csproj.CopyComplete

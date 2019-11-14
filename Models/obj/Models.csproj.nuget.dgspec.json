@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "E:\\My\\WatchShare\\web service\\WatchShare\\WatchShare\\WatchShare.csproj": {}
+    "E:\\My\\WatchShare\\web service\\WatchShare\\Models\\Models.csproj": {}
   },
   "projects": {
     "E:\\My\\WatchShare\\web service\\WatchShare\\Models\\Models.csproj": {
@@ -80,73 +80,6 @@
         },
         "win-x86": {
           "#import": []
-        }
-      }
-    },
-    "E:\\My\\WatchShare\\web service\\WatchShare\\WatchShare\\WatchShare.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "E:\\My\\WatchShare\\web service\\WatchShare\\WatchShare\\WatchShare.csproj",
-        "projectName": "WatchShare",
-        "projectPath": "E:\\My\\WatchShare\\web service\\WatchShare\\WatchShare\\WatchShare.csproj",
-        "packagesPath": "C:\\Users\\akogay\\.nuget\\packages\\",
-        "outputPath": "E:\\My\\WatchShare\\web service\\WatchShare\\WatchShare\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\akogay\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp2.2"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://www.nuget.org/api/v2/": {}
-        },
-        "frameworks": {
-          "netcoreapp2.2": {
-            "projectReferences": {
-              "E:\\My\\WatchShare\\web service\\WatchShare\\Models\\Models.csproj": {
-                "projectPath": "E:\\My\\WatchShare\\web service\\WatchShare\\Models\\Models.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp2.2": {
-          "dependencies": {
-            "Microsoft.AspNetCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
-            },
-            "Microsoft.AspNetCore.Razor.Design": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
-            }
-          },
-          "imports": [
-            "net461"
-          ],
-          "assetTargetFallback": true,
-          "warn": true
         }
       }
     }

@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29411.108
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchShare", "WatchShare\WatchShare.csproj", "{A94DBBAF-706F-4FA5-AB36-D8C219D49C63}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{C1B98036-709D-4C8F-BB8D-BABA663088A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{12B00E90-02B9-4A6F-A26A-A731B4782E8C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{A94DBBAF-706F-4FA5-AB36-D8C219D49C63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A94DBBAF-706F-4FA5-AB36-D8C219D49C63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A94DBBAF-706F-4FA5-AB36-D8C219D49C63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1B98036-709D-4C8F-BB8D-BABA663088A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1B98036-709D-4C8F-BB8D-BABA663088A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1B98036-709D-4C8F-BB8D-BABA663088A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1B98036-709D-4C8F-BB8D-BABA663088A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12B00E90-02B9-4A6F-A26A-A731B4782E8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12B00E90-02B9-4A6F-A26A-A731B4782E8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12B00E90-02B9-4A6F-A26A-A731B4782E8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12B00E90-02B9-4A6F-A26A-A731B4782E8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

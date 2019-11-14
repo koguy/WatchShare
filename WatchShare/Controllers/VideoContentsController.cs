@@ -8,11 +8,11 @@ namespace WatchShare.Controllers
 {
 	[Route("api/[controller]")]
 	[ApiController]
-	public class ValuesController : ControllerBase
+	public class VideoContentsController : ControllerBase
 	{
 		// GET api/values
 		[HttpGet]
-		public ActionResult<IEnumerable<string>> Get()
+		public ActionResult<IEnumerable<string>> Top10()
 		{
 			return new string[] { "value1", "value2" };
 		}

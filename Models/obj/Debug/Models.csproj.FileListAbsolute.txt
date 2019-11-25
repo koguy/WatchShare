@@ -1,6 +1,0 @@
-E:\My\WatchShare\web service\WatchShare\Models\bin\Debug\Models.exe.config
-E:\My\WatchShare\web service\WatchShare\Models\bin\Debug\Models.exe
-E:\My\WatchShare\web service\WatchShare\Models\bin\Debug\Models.pdb
-E:\My\WatchShare\web service\WatchShare\Models\obj\Debug\Models.csprojAssemblyReference.cache
-E:\My\WatchShare\web service\WatchShare\Models\obj\Debug\Models.exe
-E:\My\WatchShare\web service\WatchShare\Models\obj\Debug\Models.pdb

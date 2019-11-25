@@ -9,6 +9,7 @@ namespace Models.Models
         {
             CinemaddictVideoContent = new HashSet<CinemaddictVideoContent>();
             Comment = new HashSet<Comment>();
+            FilmmakerVideoContent = new HashSet<FilmmakerVideoContent>();
         }
 
         public int Id { get; set; }
@@ -21,5 +22,6 @@ namespace Models.Models
 
         public virtual ICollection<CinemaddictVideoContent> CinemaddictVideoContent { get; set; }
         public virtual ICollection<Comment> Comment { get; set; }
+        public virtual ICollection<FilmmakerVideoContent> FilmmakerVideoContent { get; set; }
     }
 }

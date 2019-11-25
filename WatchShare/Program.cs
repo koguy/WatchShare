@@ -15,7 +15,7 @@ namespace WatchShare
 		public static void Main(string[] args)
 		{
 			CreateWebHostBuilder(args).Build().Run();
-			//Scaffold-DbContext "Server=Artem-PC;Database=WatchShare;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+			
 		}
 
 		public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>

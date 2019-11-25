@@ -1,0 +1,10 @@
+E:\My\WatchShare\web service\WatchShare\Models\bin\Debug\netcoreapp2.2\Models.deps.json
+E:\My\WatchShare\web service\WatchShare\Models\bin\Debug\netcoreapp2.2\Models.dll
+E:\My\WatchShare\web service\WatchShare\Models\bin\Debug\netcoreapp2.2\Models.pdb
+E:\My\WatchShare\web service\WatchShare\Models\obj\Debug\netcoreapp2.2\Models.AssemblyInfoInputs.cache
+E:\My\WatchShare\web service\WatchShare\Models\obj\Debug\netcoreapp2.2\Models.AssemblyInfo.cs
+E:\My\WatchShare\web service\WatchShare\Models\obj\Debug\netcoreapp2.2\Models.dll
+E:\My\WatchShare\web service\WatchShare\Models\obj\Debug\netcoreapp2.2\Models.pdb
+E:\My\WatchShare\web service\WatchShare\Models\bin\Debug\netcoreapp2.2\Models.runtimeconfig.json
+E:\My\WatchShare\web service\WatchShare\Models\bin\Debug\netcoreapp2.2\Models.runtimeconfig.dev.json
+E:\My\WatchShare\web service\WatchShare\Models\obj\Debug\netcoreapp2.2\Models.csprojAssemblyReference.cache

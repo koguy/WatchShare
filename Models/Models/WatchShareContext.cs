@@ -19,6 +19,8 @@ namespace Models.Models
         public virtual DbSet<CinemaddictVideoContent> CinemaddictVideoContent { get; set; }
         public virtual DbSet<Comment> Comment { get; set; }
         public virtual DbSet<Connection> Connection { get; set; }
+        public virtual DbSet<Filmmaker> Filmmaker { get; set; }
+        public virtual DbSet<FilmmakerVideoContent> FilmmakerVideoContent { get; set; }
         public virtual DbSet<Login> Login { get; set; }
         public virtual DbSet<VideoContent> VideoContent { get; set; }
 
@@ -137,6 +139,46 @@ namespace Models.Models
                     .HasForeignKey(d => d.MyId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_MyId_Connection");
+            });
+
+            modelBuilder.Entity<Filmmaker>(entity =>
+            {
+                entity.Property(e => e.Id).HasColumnName("ID");
+
+                entity.Property(e => e.Birthday).HasColumnType("date");
+
+                entity.Property(e => e.FirstName)
+                    .IsRequired()
+                    .HasMaxLength(50);
+
+                entity.Property(e => e.Lastname)
+                    .IsRequired()
+                    .HasMaxLength(50);
+
+                entity.Property(e => e.Professions).HasMaxLength(200);
+            });
+
+            modelBuilder.Entity<FilmmakerVideoContent>(entity =>
+            {
+                entity.ToTable("Filmmaker_VideoContent");
+
+                entity.Property(e => e.Id).HasColumnName("ID");
+
+                entity.Property(e => e.FilmmakerId).HasColumnName("FilmmakerID");
+
+                entity.Property(e => e.VideoContentId).HasColumnName("VideoContentID");
+
+                entity.HasOne(d => d.Filmmaker)
+                    .WithMany(p => p.FilmmakerVideoContent)
+                    .HasForeignKey(d => d.FilmmakerId)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_FilmmakerID_Filmmaker_VideoContent");
+
+                entity.HasOne(d => d.VideoContent)
+                    .WithMany(p => p.FilmmakerVideoContent)
+                    .HasForeignKey(d => d.VideoContentId)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_VideoContentID_Filmmaker_VideoContent");
             });
 
             modelBuilder.Entity<Login>(entity =>
